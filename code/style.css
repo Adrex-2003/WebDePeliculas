@@ -115,21 +115,22 @@ main{
     text-align: center;
     font-size: 3em;
 }
-#popular{
-    width: 100%;
-    display: flex;
-    place-items: center;
-}
 .populares{
     display: flexbox;
+    float: left;
     margin: 1.5%;
     height: 400px;
-    float:left;
-    width: 20%;
+    max-width: 20%;
     background: rgb(109, 109, 109, 0.5);
     border-radius: 10px;
     padding: 1%;
     
+}
+.populares b{
+    font-size: 1rem;
+}
+.populares p{
+    font-size: 0.7em;
 }
 .populares img{
     width: 100%;
