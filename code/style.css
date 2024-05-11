@@ -138,3 +138,13 @@ main{
     height: 300px;
     border-radius: 10px;
 }
+@media(max-width: 750px){
+    .populares{
+        max-width: 45%;
+        height: 300px;
+    }
+    .populares img{
+        height: 250px;
+    }
+}
+/*biblioteca de componentes de tailwind*/
