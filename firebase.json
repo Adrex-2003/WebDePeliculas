@@ -1,10 +1,16 @@
 {
   "hosting": {
-    "public": "./code",
+    "public": "dist/movies/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
     ]
   }
 }
